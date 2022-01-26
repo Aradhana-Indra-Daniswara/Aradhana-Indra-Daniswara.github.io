@@ -1,0 +1,165 @@
+:root{
+  --width: 1000px;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+p,
+h1{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header */
+header{
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 8%;
+}
+.logo img{
+  width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+nav p {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.button{
+  margin-left: 2rem;
+}
+
+/* Main */
+main{
+  max-width: var(--width);
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+}
+
+.left{
+  width: 70%;
+}
+.right{
+  width: 30%;
+}
+
+/* Name */
+h1{
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.name{
+  margin-bottom: 1rem;
+}
+
+/* About me */
+.description{
+  margin-bottom: 1.5rem;
+  width: 80%;
+}
+
+/* Skills */
+.skill,
+.icons{
+  width: 100%;
+}
+.skill h2{
+  margin-bottom: 1rem;
+}
+
+.icons img{
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+/* Photo */
+.photo,
+.contact,
+.socialmedia{
+  width: 100%;
+  float: right;
+  margin-bottom: 1.5rem;
+}
+.photo img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* Contact */
+.cards{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.cards img{
+  width: 2rem;
+  margin-right: 0.5rem;
+
+}
+
+/* Social Media */
+.socialmedia{
+  display: flex;
+  flex-direction: column;
+}
+.socialmedia .cards{
+  border-radius: 0.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.alt{
+  display: none;
+}
+/* Clickables */
+.clickables{
+  
+  width: min-content;
+  padding: 0.3rem;
+  padding-right: 0.5rem;
+  
+  color: white;
+
+}
+
+#linkedin{
+  background-color: #0A66C2;
+  border: 1px solid #0A66C2; 
+}
+
+#instagram{
+  background-color: #D43377;
+  border: 1px solid #D43377; 
+}
+#github{
+  background-color: #000000;
+  border: 1px solid #000000; 
+}
+
+#spotify{
+  background-color: #1DB954;
+  border: 1px solid #1DB954; 
+}
+
+
+
+
